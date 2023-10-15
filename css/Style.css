@@ -1,0 +1,81 @@
+html {
+    color: azure;
+    margin: 3em;
+    background-color: rgb(40, 52, 63);
+
+}
+
+h1 {
+    font-size: 5em;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h3,
+h4 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+section {
+    height: 200px;
+    color: rgb(27, 28, 43);
+    background-color: lightgoldenrodyellow;
+    margin: 2em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: lightblue;
+}
+a:hover{
+    color: rgb(133, 133, 99);
+}
+
+#fLink:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+section:first-child {
+    background-color: lightgoldenrodyellow;
+}
+
+
+section::after {
+    content: "Did you find this interesting?.";
+}
+
+section::before {
+    content: "Fill the spaces";
+    align-content: center;
+}
+
+section>h2 {
+    font-style: italic;
+}
+
+.highlight:hover,
+.emHighlight:hover {
+    color: rgb(133, 133, 99);
+}
+
+input[type=text]:hover {
+    background-color: lightblue;
+}
+
+section {
+    margin: 2em
+}
